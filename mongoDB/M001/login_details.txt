@@ -1,0 +1,6 @@
+Please use the following command to connect to the class Atlas cluster. You should issue this command in the cmd shell, the OSX Terminal application, or another command-line interface of your choice.
+
+mongo "mongodb://cluster0-shard-00-00-jxeqq.mongodb.net:27017,cluster0-shard-00-01-jxeqq.mongodb.net:27017,cluster0-shard-00-02-jxeqq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0" --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics
+
+sandbox:
+mongo "mongodb://sandbox-shard-00-00-hjdpc.mongodb.net:27017,sandbox-shard-00-01-hjdpc.mongodb.net:27017,sandbox-shard-00-02-hjdpc.mongodb.net:27017/test?replicaSet=Sandbox-shard-0" --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics
